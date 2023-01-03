@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 20px;
+    border-top: solid 1px white;
+
+    p{
+        color: white;
+        
+        span{
+            color: rgb(91, 255, 168);
+        }
+    }
+}
