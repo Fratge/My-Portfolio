@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 body {
   background-color: #0e1116;
   margin: 0 auto;
@@ -208,14 +209,15 @@ header {
 #a-propos {
   height: 700px;
   color: white;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
+  font-family: "Ubuntu", sans-serif;
 }
 #a-propos .section-background {
   width: 1280px;
   margin: 0 auto;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 #a-propos .section-title {
@@ -269,7 +271,7 @@ header {
   margin-bottom: 35px;
   position: relative;
   color: white;
-  font-family: "Merriweather";
+  font-family: "Ubuntu", sans-serif;
 }
 #competences .section-background .container {
   display: flex;
@@ -334,11 +336,141 @@ header {
 
 #projets {
   background-color: white;
-  height: 1000px;
+  display: flex;
+  align-items: center;
+  height: 1350px;
+}
+#projets .section-background {
+  width: 1280px;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+}
+#projets .section-title {
+  font-size: 45px;
+  margin: 50px 0;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.projet-recent {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  background-color: #373a55;
+  padding: 25px;
+  border-radius: 20px;
+}
+.projet-recent img {
+  width: 500px;
+  height: 300px;
+}
+.projet-recent .projet-recent-content {
+  text-align: justify;
+  font-size: 22px;
+}
+.projet-recent .projet-recent-content .latest-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+}
+.projet-recent .projet-recent-content .latest-title h4 {
+  font-weight: bold;
+  font-size: 45px;
+  color: white;
+  text-align: left;
+}
+.projet-recent .projet-recent-content .latest-title span {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.projet-recent .projet-recent-content img {
+  width: 27px;
+  height: 27px;
+}
+.projet-recent .projet-recent-content p {
+  margin: 20px 0px 35px 0px;
+  color: white;
+  font-family: Open Sans, sans-serif;
+}
+.projet-recent .projet-recent-content .projet-languages {
+  color: rgb(91, 255, 168);
+  display: flex;
+  gap: 25px;
+  font-family: Open Sans, sans-serif;
+}
+.projet-recent .projet-recent-content .projet-redirections {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.projets-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
+}
+.projets-container .projet {
+  width: 410px;
+  height: 350px;
+  background-color: #373a55;
+  margin-bottom: 27px;
+  border-radius: 5px;
+  padding: 25px;
+  position: relative;
+}
+.projets-container .projet .projet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projets-container .projet .projet-header img {
+  width: 40px;
+  height: 40px;
+}
+.projets-container .projet .projet-header div img {
+  width: 25px;
+  height: 25px;
+}
+.projets-container .projet .projet-body {
+  text-align: left;
+  margin-top: 25px;
+}
+.projets-container .projet .projet-body h5 {
+  font-size: 24px;
+  color: #e0e7ff;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.projets-container .projet .projet-body p {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #b9c5ff;
+  font-weight: 500;
+  font-family: Open Sans, sans-serif;
+  text-align: left;
+  line-height: 27px;
+}
+.projets-container .projet .projet-footer {
+  text-align: left;
+  margin-top: 32px;
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  gap: 30px;
+  color: #5bffa8;
+  font-family: Open Sans, sans-serif;
 }
 
 #contact {
   height: 800px;
+  font-family: "Ubuntu", sans-serif;
 }
 #contact .section-background {
   width: 1280px;
