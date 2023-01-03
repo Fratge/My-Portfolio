@@ -1,4 +1,89 @@
 #competences{
     background-color: #0e1116;
-    height: 500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+
+    .section-background{
+        width: 1280px;
+        margin: 0 auto;
+
+        .section-title{
+            text-align: right;
+            font-size: 45px;
+            margin-bottom: 25px;
+            color: white;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            gap: 35px;
+        }
+    }
+
+}
+
+
+.technologies, .webdesign, .autres{
+    background-color:#373a55;
+    font-family: 'Istok Web';
+    border-radius: 12px;
+    padding: 15px 0;
+
+    h3{
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        color: rgb(91, 255, 168);
+    }
+}
+
+.technologies{
+    width: 500px;
+
+    .item-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+
+        img{
+            width: 75px;
+            height: 75px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.webdesign, .autres{
+    .item-container{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+        }
+
+        img{
+            width: 75px;
+            height: 75px;
+            margin-bottom: 15px;
+        }
+    }
 }
