@@ -1,14 +1,9 @@
 /* Utils */
 @import './utils/reset.css';
 /* Base */
-@font-face {
-  font-family: "Merriweather";
-  src: url(../../fonts/Merriweather/Merriweather-Black.ttf);
-}
-@font-face {
-  font-family: "Istok Web";
-  src: url(../../fonts/Istok_Web/IstokWeb-Regular.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
 body {
   background-color: #0e1116;
   margin: 0 auto;
@@ -38,6 +33,7 @@ header {
 .header-nav .header-nav-logo {
   color: rgb(91, 255, 168);
   font-size: 2.4rem;
+  font-family: "Chonburi", cursive;
 }
 .header-nav ul {
   display: flex;
@@ -85,21 +81,23 @@ header {
 }
 #landing-page h2 {
   font-size: 2.5rem;
-  color: rgb(91, 255, 168);
+  color: rgba(91, 255, 168, 0.621);
+  margin-top: 5px;
 }
 #landing-page .btn-decouvre {
   width: 200px;
   padding: 10px;
   text-align: center;
   border-radius: 12px;
+  border: 2px solid white;
   color: #fff;
   margin-top: 40px;
   font-size: 20px;
-  background-color: rgb(236, 92, 92);
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 #landing-page .btn-decouvre:hover {
-  box-shadow: 0 0 40px 40px rgb(130, 255, 63) inset;
+  box-shadow: 0 0 40px 40px rgb(82, 255, 160) inset;
+  color: black;
 }
 
 .circles {
@@ -109,6 +107,7 @@ header {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: -1;
 }
 .circles li {
   position: absolute;
@@ -226,6 +225,7 @@ header {
 #a-propos .container {
   font-size: 22px;
   display: flex;
+  align-items: center;
   gap: 50px;
 }
 #a-propos .container img {
@@ -238,6 +238,19 @@ header {
   flex-direction: column;
   gap: 20px;
   text-align: justify;
+  font-family: "Istok Web", sans-serif;
+}
+#a-propos .container .textes .apprentissage {
+  font-style: italic;
+  color: rgb(136, 136, 136);
+}
+#a-propos .container .textes .logo-container {
+  display: flex;
+  gap: 45px;
+}
+#a-propos .container .textes .logo-container img {
+  width: 50px;
+  height: 50px;
 }
 
 #competences {
@@ -251,10 +264,12 @@ header {
   margin: 0 auto;
 }
 #competences .section-background .section-title {
-  text-align: right;
+  text-align: center;
   font-size: 45px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
+  position: relative;
   color: white;
+  font-family: "Merriweather";
 }
 #competences .section-background .container {
   display: flex;
@@ -315,6 +330,67 @@ header {
   width: 75px;
   height: 75px;
   margin-bottom: 15px;
+}
+
+#projets {
+  background-color: white;
+  height: 1000px;
+}
+
+#contact {
+  height: 800px;
+}
+#contact .section-background {
+  width: 1280px;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+}
+#contact .section-title {
+  font-size: 45px;
+  margin: 50px 0;
+  color: white;
+}
+#contact .container h3 {
+  color: white;
+  font-size: 28px;
+}
+
+form {
+  width: 1000px;
+  margin: 100px auto;
+}
+form .form-nom-prenom {
+  display: flex;
+  gap: 25px;
+}
+form .form-text {
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 3px solid rgb(91, 255, 168);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+form .form-text:focus {
+  border: 4px solid rgb(68, 186, 123);
+  transform: scale(1.02);
+}
+form textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+form .form-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(91, 255, 168);
 }
 
 footer {

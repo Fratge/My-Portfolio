@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 264 280">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        mask: url(#mask-10);
+      }
+
+      .cls-4 {
+        fill: #bbffce;
+      }
+
+      .cls-2, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-10 {
+        mask: url(#mask-2);
+      }
+
+      .cls-5 {
+        fill: #b7c1db;
+      }
+
+      .cls-11 {
+        fill: #724133;
+      }
+
+      .cls-12 {
+        mask: url(#mask-3);
+      }
+
+      .cls-13 {
+        mask: url(#mask-9);
+      }
+
+      .cls-14 {
+        fill: #e6e6e6;
+      }
+
+      .cls-15 {
+        mask: url(#mask-5);
+      }
+
+      .cls-16 {
+        fill: #3c4f5c;
+      }
+
+      .cls-17 {
+        fill: #edb98a;
+      }
+
+      .cls-18 {
+        mask: url(#mask-8);
+      }
+
+      .cls-19 {
+        mask: url(#mask-4);
+      }
+
+      .cls-6 {
+        fill: #d0c6ac;
+      }
+
+      .cls-7 {
+        fill: #f4f4f4;
+      }
+
+      .cls-20 {
+        mask: url(#mask-6);
+      }
+
+      .cls-21 {
+        mask: url(#mask-1);
+      }
+
+      .cls-22 {
+        mask: url(#mask);
+      }
+
+      .cls-23 {
+        mask: url(#mask-7);
+      }
+
+      .cls-8 {
+        fill: #28354b;
+      }
+
+      .cls-24 {
+        fill: #ff4f6d;
+      }
+    </style>
+    <mask id="mask" x="12" y="40" width="240" height="240" maskUnits="userSpaceOnUse">
+      <g id="react-mask-4">
+        <circle id="react-path-1-2" data-name="react-path-1" class="cls-1" cx="132" cy="160" r="120"/>
+      </g>
+    </mask>
+    <mask id="mask-1" x="0" y="0" width="338" height="316" maskUnits="userSpaceOnUse">
+      <g id="react-mask-5">
+        <path id="react-path-2" class="cls-2" d="m12,160c0,66.27,53.73,120,120,120s120-53.73,120-120h12V0H0v160h12Z"/>
+      </g>
+    </mask>
+    <mask id="mask-2" x="32" y="36" width="264" height="280" maskUnits="userSpaceOnUse">
+      <g id="react-mask-6">
+        <path id="react-path-3-2" data-name="react-path-3" class="cls-2" d="m156,180.61v18.39h4c39.76,0,72,32.24,72,72v9H32v-9c0-39.76,32.24-72,72-72h4v-18.39c-17.24-8.19-29.63-24.92-31.69-44.73-5.82-.82-10.31-5.83-10.31-11.88v-14c0-5.95,4.32-10.88,10-11.83v-6.17h0c0-30.93,25.07-56,56-56h0c30.93,0,56,25.07,56,56v6.17c5.68.95,10,5.89,10,11.83v14c0,6.05-4.48,11.06-10.31,11.88-2.07,19.81-14.46,36.54-31.69,44.73Z"/>
+      </g>
+    </mask>
+    <mask id="mask-3" x="32" y="36" width="200" height="244" maskUnits="userSpaceOnUse">
+      <g id="react-mask-6-2" data-name="react-mask-6">
+        <path id="react-path-3-3" data-name="react-path-3" class="cls-2" d="m156,180.61v18.39h4c39.76,0,72,32.24,72,72v9H32v-9c0-39.76,32.24-72,72-72h4v-18.39c-17.24-8.19-29.63-24.92-31.69-44.73-5.82-.82-10.31-5.83-10.31-11.88v-14c0-5.95,4.32-10.88,10-11.83v-6.17h0c0-30.93,25.07-56,56-56h0c30.93,0,56,25.07,56,56v6.17c5.68.95,10,5.89,10,11.83v14c0,6.05-4.48,11.06-10.31,11.88-2.07,19.81-14.46,36.54-31.69,44.73Z"/>
+      </g>
+    </mask>
+    <mask id="mask-4" x="0" y="170" width="264" height="110" maskUnits="userSpaceOnUse">
+      <g id="react-mask-264">
+        <path id="react-path-263-2" data-name="react-path-263" class="cls-2" d="m108,183.07c-17.92,2.01-31.72,7.48-32,21.57-25.86,10.92-44,36.52-44,66.35h0v9h200v-9c0-29.83-18.15-55.43-44-66.35-.28-14.09-14.08-19.57-32-21.57v18.93h0c0,13.25-10.75,24-24,24h0c-13.25,0-24-10.75-24-24v-18.93Z"/>
+      </g>
+    </mask>
+    <mask id="mask-5" x="32" y="183.07" width="200" height="96.93" maskUnits="userSpaceOnUse">
+      <g id="react-mask-264-2" data-name="react-mask-264">
+        <path id="react-path-263-3" data-name="react-path-263" class="cls-2" d="m108,183.07c-17.92,2.01-31.72,7.48-32,21.57-25.86,10.92-44,36.52-44,66.35h0v9h200v-9c0-29.83-18.15-55.43-44-66.35-.28-14.09-14.08-19.57-32-21.57v18.93h0c0,13.25-10.75,24-24,24h0c-13.25,0-24-10.75-24-24v-18.93Z"/>
+      </g>
+    </mask>
+    <mask id="mask-6" x="32" y="182.72" width="200" height="97.28" maskUnits="userSpaceOnUse">
+      <g id="react-mask-264-3" data-name="react-mask-264">
+        <path id="react-path-263-4" data-name="react-path-263" class="cls-2" d="m108,183.07c-17.92,2.01-31.72,7.48-32,21.57-25.86,10.92-44,36.52-44,66.35h0v9h200v-9c0-29.83-18.15-55.43-44-66.35-.28-14.09-14.08-19.57-32-21.57v18.93h0c0,13.25-10.75,24-24,24h0c-13.25,0-24-10.75-24-24v-18.93Z"/>
+      </g>
+    </mask>
+    <mask id="mask-7" x="113.11" y="136" width="37.79" height="30" maskUnits="userSpaceOnUse">
+      <g id="react-mask-304">
+        <path id="react-path-303-2" data-name="react-path-303" class="cls-2" d="m113.12,149.13c1.06,9.49,9.11,16.87,18.88,16.87s17.87-7.43,18.89-16.96c.08-.77-.78-2.04-1.85-2.04h-33.96c-1.08,0-2.07,1.18-1.97,2.13Z"/>
+      </g>
+    </mask>
+    <mask id="mask-8" x="113.11" y="147" width="37.79" height="33" maskUnits="userSpaceOnUse">
+      <g id="react-mask-304-2" data-name="react-mask-304">
+        <path id="react-path-303-3" data-name="react-path-303" class="cls-2" d="m113.12,149.13c1.06,9.49,9.11,16.87,18.88,16.87s17.87-7.43,18.89-16.96c.08-.77-.78-2.04-1.85-2.04h-33.96c-1.08,0-2.07,1.18-1.97,2.13Z"/>
+      </g>
+    </mask>
+    <mask id="mask-9" x="0" y="0" width="338" height="314" maskUnits="userSpaceOnUse">
+      <g id="react-mask-172">
+        <rect id="react-path-174" class="cls-1" width="264" height="280"/>
+      </g>
+    </mask>
+    <mask id="mask-10" x="74" y="34" width="264" height="280" maskUnits="userSpaceOnUse">
+      <g id="react-mask-173">
+        <path id="react-path-175-2" data-name="react-path-175" class="cls-2" d="m75,98c.35,1.49,1.67,1.22,2,0-.46-1.55,3.3-28.75,13-36,3.62-2.52,23.01-4.77,42.31-4.75,19.1.01,38.11,2.26,41.69,4.75,9.7,7.25,13.46,34.45,13,36,.33,1.22,1.65,1.49,2,0,.72-10.3,0-63.73-57-63-57,.73-57.72,52.7-57,63Z"/>
+      </g>
+    </mask>
+  </defs>
+  <g id="Avataaar">
+    <g id="Avataaar_Circle" data-name="Avataaar/Circle">
+      <g>
+        <g id="Circle">
+          <g id="Circle-Background">
+            <circle id="react-path-1" class="cls-14" cx="132" cy="160" r="120"/>
+          </g>
+          <g class="cls-22">
+            <g id="Color_Palette_Blue-01" data-name="Color/Palette/Blue-01">
+              <rect id="_Color" data-name="🖍Color" class="cls-4" x="12" y="40" width="240" height="240"/>
+            </g>
+          </g>
+        </g>
+        <g class="cls-21">
+          <g id="Avataaar-2" data-name="Avataaar">
+            <g id="Body">
+              <path id="react-path-3" class="cls-6" d="m156,180.61v18.39h4c39.76,0,72,32.24,72,72v9H32v-9c0-39.76,32.24-72,72-72h4v-18.39c-17.24-8.19-29.63-24.92-31.69-44.73-5.82-.82-10.31-5.83-10.31-11.88v-14c0-5.95,4.32-10.88,10-11.83v-6.17h0c0-30.93,25.07-56,56-56h0c30.93,0,56,25.07,56,56v6.17c5.68.95,10,5.89,10,11.83v14c0,6.05-4.48,11.06-10.31,11.88-2.07,19.81-14.46,36.54-31.69,44.73Z"/>
+              <g class="cls-10">
+                <g id="Skin_-03-Brown" data-name="Skin/👶🏽-03-Brown">
+                  <g id="Color">
+                    <rect class="cls-17" x="32" y="36" width="264" height="280"/>
+                  </g>
+                </g>
+              </g>
+              <g class="cls-12">
+                <path id="Neck-Shadow" class="cls-9" d="m188,115v23c0,30.93-25.07,56-56,56s-56-25.07-56-56v-23,15c0,30.93,25.07,56,56,56s56-25.07,56-56v-15Z"/>
+              </g>
+            </g>
+            <g id="Clothing_Hoodie" data-name="Clothing/Hoodie">
+              <g id="Hoodie">
+                <path id="react-path-263" class="cls-5" d="m108,183.07c-17.92,2.01-31.72,7.48-32,21.57-25.86,10.92-44,36.52-44,66.35h0v9h200v-9c0-29.83-18.15-55.43-44-66.35-.28-14.09-14.08-19.57-32-21.57v18.93h0c0,13.25-10.75,24-24,24h0c-13.25,0-24-10.75-24-24v-18.93Z"/>
+              </g>
+              <g class="cls-19">
+                <g id="Color_Palette_Gray-01" data-name="Color/Palette/Gray-01">
+                  <rect id="_Color-2" data-name="🖍Color" class="cls-16" y="170" width="264" height="110"/>
+                </g>
+              </g>
+              <g class="cls-15">
+                <path id="Straps" class="cls-7" d="m102,231.74v48.26h-7v-51.85c2.2,1.31,4.55,2.51,7,3.59Zm67-3.59v40.35c0,1.93-1.57,3.5-3.5,3.5s-3.5-1.57-3.5-3.5v-36.76c2.45-1.08,4.8-2.28,7-3.59Z"/>
+              </g>
+              <g class="cls-20">
+                <path id="Shadow" class="cls-9" d="m90.96,182.72c-15.05,2.85-25.46,8.52-25.46,19.58,0,19.71,33.04,35.69,66.5,35.69s66.5-15.98,66.5-35.69c0-11.06-10.41-16.74-25.46-19.58,9.09,3.35,14.96,8.98,14.96,18.35,0,20.39-27.82,36.92-56,36.92s-56-16.53-56-36.92c0-9.37,5.88-15,14.96-18.35Z"/>
+              </g>
+            </g>
+            <g id="Face">
+              <g id="Mouth_Smile" data-name="Mouth/Smile">
+                <g id="Mouth">
+                  <path id="react-path-303" class="cls-9" d="m113.12,149.13c1.06,9.49,9.11,16.87,18.88,16.87s17.87-7.43,18.89-16.96c.08-.77-.78-2.04-1.85-2.04h-33.96c-1.08,0-2.07,1.18-1.97,2.13Z"/>
+                </g>
+                <g class="cls-23">
+                  <rect id="Teeth" class="cls-1" x="117" y="136" width="31" height="16" rx="5" ry="5"/>
+                </g>
+                <g class="cls-18">
+                  <g id="Tongue">
+                    <g>
+                      <circle class="cls-24" cx="127" cy="169" r="11"/>
+                      <circle class="cls-24" cx="137" cy="169" r="11"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g id="Nose_Default" data-name="Nose/Default">
+                <path id="Nose" class="cls-9" d="m120,130c0,4.42,5.37,8,12,8h0c6.63,0,12-3.58,12-8"/>
+              </g>
+              <g id="Eyes_Default-_" data-name="Eyes/Default-😀">
+                <circle id="Eye" cx="106" cy="112" r="6"/>
+                <circle id="Eye-2" data-name="Eye" cx="158" cy="112" r="6"/>
+              </g>
+              <g id="Eyebrow_Natural_Raised-Excited-Natural" data-name="Eyebrow/Natural/Raised-Excited-Natural">
+                <path id="Eye-Browse-Reddit" class="cls-9" d="m98.77,83.58l.91-.4c5.24-2.08,13.19-1.21,18.05,1.12.57.27.18,1.15-.4,1.11-14.92-1.15-24.96,8.15-28.38,14.44-.1.19-.41.21-.48.03-2.31-5.32,4.45-13.98,10.3-16.3Z"/>
+                <path id="Eye-Browse-Reddit-2" data-name="Eye-Browse-Reddit" class="cls-9" d="m165.23,83.58l-.91-.4c-5.24-2.08-13.19-1.21-18.05,1.12-.57.27-.18,1.15.4,1.11,14.92-1.15,24.96,8.15,28.38,14.44.1.19.41.21.48.03,2.31-5.32-4.45-13.98-10.3-16.3Z"/>
+              </g>
+            </g>
+            <g id="Top">
+              <g class="cls-13">
+                <g id="Top_Short-Hair_The-Caesar" data-name="Top/Short-Hair/The-Caesar">
+                  <g id="Hair">
+                    <g id="Caesar">
+                      <path id="react-path-175" class="cls-8" d="m75,98c.35,1.49,1.67,1.22,2,0-.46-1.55,3.3-28.75,13-36,3.62-2.52,23.01-4.77,42.31-4.75,19.1.01,38.11,2.26,41.69,4.75,9.7,7.25,13.46,34.45,13,36,.33,1.22,1.65,1.49,2,0,.72-10.3,0-63.73-57-63-57,.73-57.72,52.7-57,63Z"/>
+                    </g>
+                    <g class="cls-3">
+                      <g id="Skin_-03-Brown-2" data-name="Skin/👶🏽-03-Brown">
+                        <g id="Color-2" data-name="Color">
+                          <rect class="cls-11" x="74" y="34" width="264" height="280"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

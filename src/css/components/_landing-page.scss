@@ -13,7 +13,8 @@
 
     h2{
         font-size: 2.5rem;
-        color: rgb(91, 255, 168);
+        color: rgba(91, 255, 168, 0.621);
+        margin-top: 5px;
     }
 
     .btn-decouvre{
@@ -21,14 +22,15 @@
         padding: 10px;
         text-align: center;
         border-radius: 12px;
+        border: 2px solid white;
         color: #fff;
         margin-top: 40px;
         font-size: 20px;
-        background-color: rgb(236, 92, 92);
         transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 
         &:hover {
-          box-shadow: 0 0 40px 40px rgb(130, 255, 63) inset;
+          box-shadow: 0 0 40px 40px rgb(82, 255, 160) inset;
+          color: black;
         }
     }
 
@@ -41,6 +43,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: -1; 
 
     li{
         position: absolute;

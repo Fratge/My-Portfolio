@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav class="header-nav">
-            <div><a class="header-nav-logo" href="#">Sg.</a></div>
+            <div><a class="header-nav-logo" href="#">SG</a></div>
             <ul>
                 <li class="header-item"><a href="#">A propos</a></li>
                 <li class="header-item"><a href="#">Projets</a></li>
@@ -45,12 +45,12 @@
                 </ul>
             </div>
         </section>
-        
+
         <section id="a-propos">
             <div class="section-background" data-aos="fade-left">
                 <h1 class="section-title">A propos</h1>
                 <div class="container">
-                    <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg" alt="">
+                    <img src="src/images/svg/avatar.svg" alt="">
                     <div class="textes">
                         <p>
                             Étudiant en 2ème année de BUT MMI (Métiers du Multimédia et de l’Internet) à Haguenau,
@@ -62,11 +62,13 @@
                             même occasion je suis en train d'apprendre la librairie React JS en autodidacte grâce aux
                             nombreuses ressources disponibles sur internet. 📈
                         </p>
-                        <p>
-                            J'apprend chaque jours de nouvelle choses dans ce monde qui me passionne énormement, par la
-                            même occasion je suis en train d'apprendre la librairie React JS en autodidacte grâce aux
-                            nombreuses ressources disponibles sur internet. 📈
+                        <p class="apprentissage">
+                            En cours d'apprentissage : React
                         </p>
+                        <div class="logo-container">
+                            <a href="#" target="_blank"><img src="./src/images/svg/github_logo.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="./src/images/svg/linkedin_logo.svg" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,7 +99,7 @@
                             <li><img src="./src/images/svg/illustrator_logo.svg" alt="">Illustrator</li>
                         </ul>
                     </div>
-                    <div class="autres"  data-aos="fade-left">
+                    <div class="autres" data-aos="fade-left">
                         <h3>Autres</h3>
                         <ul class="item-container">
                             <li><img src="./src/images/svg/git_logo.svg" alt="">Git</li>
@@ -109,10 +111,26 @@
             </div>
         </section>
         <section id="projets">
-            
+
         </section>
         <section id="contact">
+            <div class="section-background">
+                <h1 class="section-title">Contact</h1>
+                <div class="container">
+                    <h3>Intéressé(e) par mon profil ?</h3>
+                    <h3>👇 Contactez-moi 👇</h3>
 
+                    <form>      
+                        <div class="form-nom-prenom">
+                            <input name="nom" type="text" class="form-text" placeholder="Nom" />   
+                            <input name="prenom" type="text" class="form-text" placeholder="Prénom" />   
+                        </div>
+                        <input name="mail" type="text" class="form-text" placeholder="E-mail" required/>
+                        <textarea name="text" class="form-text" placeholder="Message"></textarea>
+                        <input type="submit" class="form-btn" value="Envoyer"/>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
