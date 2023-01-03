@@ -1,0 +1,138 @@
+/* Utils */
+@import './utils/reset.css';
+/* Base */
+@font-face {
+  font-family: "Merriweather";
+  src: url(../../fonts/Merriweather/Merriweather-Black.ttf);
+}
+body {
+  background-color: #0e1116;
+  margin: 0 auto;
+}
+
+main {
+  margin: auto;
+} /* Components */
+header {
+  background-color: #0e1116;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-bottom: 1px solid white;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.header-nav .header-nav-logo {
+  color: rgb(91, 255, 168);
+  font-size: 2.4rem;
+}
+.header-nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.6rem;
+  width: 700px;
+}
+.header-nav ul .header-item {
+  position: relative;
+}
+.header-nav ul .header-item:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  display: block;
+  transition: all 0.3s ease;
+  bottom: -5px;
+}
+.header-nav ul .header-item:hover::after {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.header-nav ul .header-item a {
+  color: white;
+}
+.header-nav ul .btn-cv {
+  background-color: rgb(91, 255, 168);
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+#landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
+}
+#landing-page h1 {
+  font-size: 5rem;
+  color: rgb(91, 255, 168);
+}
+#landing-page h2 {
+  font-size: 2.5rem;
+  color: rgb(91, 255, 168);
+}
+#landing-page .btn-decouvre {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 20px;
+  background-color: rgb(236, 92, 92);
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+#landing-page .btn-decouvre:hover {
+  box-shadow: 0 0 40px 40px rgb(130, 255, 63) inset;
+}
+
+#a-propos {
+  height: 700px;
+  color: white;
+  background-color: white;
+}
+#a-propos .section-background {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+}
+#a-propos .section-title {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+#a-propos .container {
+  font-size: 22px;
+  display: flex;
+  gap: 50px;
+}
+#a-propos .container img {
+  width: 600px;
+  height: 500px;
+}
+#a-propos .container .textes {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+
+#competences {
+  background-color: #0e1116;
+  height: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */

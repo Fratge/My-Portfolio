@@ -1,0 +1,36 @@
+#a-propos{
+    height: 700px;
+    color: white;
+    background-color: white;
+
+    .section-background{
+        width: 1280px;
+        margin: 0 auto;
+        background-color: white;
+        color: black;
+    }
+
+    .section-title{
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+
+    .container{
+        font-size: 22px;
+        display: flex;
+        gap: 50px;
+
+        img{
+            width: 600px;
+            height: 500px;
+        }
+
+        .textes{
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: justify;
+        }
+    }
+}
