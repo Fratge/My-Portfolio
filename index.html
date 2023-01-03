@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Fratge | Portfolio</title>
 </head>
@@ -21,14 +22,14 @@
         </nav>
     </header>
     <main>
-        <section id="landing-page">
+        <section id="landing-page" data-aos="fade-right">
             <h1>Sébastien GROSS</h1>
             <h2>Développeur motivé & étudiant MMI</h2>
             <a href="#" class="btn-decouvre">Découvre mes projets</a>
             <img src="./src/icons/arrow-down.svg" class="arrow-down"alt="">
         </section>
-        <section id="a-propos">
-            <div class="section-background">
+        <section id="a-propos" >
+            <div class="section-background" data-aos="fade-left">
                 <h1 class="section-title">A propos</h1>
                 <div class="container">
                     <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg" alt="">
@@ -65,5 +66,7 @@
     <footer>
         <p><span>Sébastien Gross </span>| Tous droits réservés</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
