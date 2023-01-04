@@ -3,6 +3,7 @@
     height: 700px;
     display: flex;
     align-items: center;
+    width: 100vw;
     
     
     .section-background{
@@ -91,4 +92,39 @@
             margin-bottom: 15px;
         }
     }
+}
+
+@media screen and (max-width: 1150px) {
+
+    #competences{
+        height: 100%;
+        margin: 7% 0;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 735px) {
+
+    #competences{
+        height: 100%;
+        margin: 7% 0;
+    }
+
+    .container{
+        display: flex;
+        
+        .technologies{
+            flex-direction: column;
+
+            .item-container{
+
+            }
+        }
+    }
+
 }

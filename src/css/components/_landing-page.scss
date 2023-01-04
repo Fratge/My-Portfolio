@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    // width: 100vw;
     margin: auto; 
 
     h1{
@@ -260,3 +261,20 @@
     }
   }
   
+
+@media screen and (max-width: 780px) {
+  #landing-page{
+    h1{
+      font-size: calc(88 * $test);
+    }
+    h2{
+      font-size: calc(40 * $test);
+    }
+
+    .btn-decouvre{
+      width: 100%;
+      font-size: calc(22 * $test);
+    }
+  }
+}
+
