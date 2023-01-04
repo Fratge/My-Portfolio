@@ -15,10 +15,10 @@
         <nav class="header-nav">
             <div><a class="header-nav-logo" href="#">SG</a></div>
             <ul>
-                <li class="header-item"><a href="#">A propos</a></li>
-                <li class="header-item"><a href="#">Projets</a></li>
-                <li class="header-item"><a href="#">Compétences</a></li>
-                <li class="header-item"><a href="#">Contact</a></li>
+                <li class="header-item"><a href="#a-propos">A propos</a></li>
+                <li class="header-item"><a href="#projets">Projets</a></li>
+                <li class="header-item"><a href="#competences">Compétences</a></li>
+                <li class="header-item"><a href="#contact">Contact</a></li>
                 <li><a href="#" class="btn-cv">Mon CV</a></li>
             </ul>
         </nav>
@@ -276,15 +276,17 @@
                 <div class="container">
                     <h3>Intéressé(e) par mon profil ?</h3>
                     <h3>👇 Contactez-moi 👇</h3>
-                    <form>      
+
+                    <form action="contact.php" method="post">      
                         <div class="form-nom-prenom">
-                            <input name="nom" type="text" class="form-text" placeholder="Nom" />   
-                            <input name="prenom" type="text" class="form-text" placeholder="Prénom" />   
+                            <input name="nom" type="text" class="form-text" placeholder="Nom"/>   
+                            <input name="prenom" type="text" class="form-text" placeholder="Prénom"/>   
                         </div>
-                        <input name="mail" type="text" class="form-text" placeholder="E-mail" required/>
-                        <textarea name="text" class="form-text" placeholder="Message"></textarea>
-                        <input type="submit" class="form-btn" value="Envoyer"/>
+                        <input name="mail" type="email" class="form-text" placeholder="E-mail" required/>
+                        <textarea name="message" class="form-text" placeholder="Message"></textarea>
+                        <input type="submit" class="form-btn" name="envoyer" value="Envoyer"/>
                     </form>
+                    <p class="temps-reponse">Réponse dans la journée</p>
                 </div>
             </div>
         </section>
