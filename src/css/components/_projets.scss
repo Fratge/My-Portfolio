@@ -105,7 +105,21 @@
         border-radius: 5px;
         padding: 25px;
         position: relative;
-    
+        
+        &:hover{
+            .projet-header{
+                div{
+                    a{
+                        img{
+                            transform: scale(1.3);
+                            transition: 0.1s ease;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        
         .projet-header{
             display: flex;
             justify-content: space-between;

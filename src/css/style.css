@@ -16,7 +16,7 @@ main {
 }
 
 html {
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 /* Components */
@@ -464,7 +464,7 @@ header {
   }
   #a-propos .container .textes {
     width: 85%;
-    margin: 0px 3%;
+    margin-right: 0;
   }
   #a-propos .container .textes .logo-container {
     margin-bottom: 10%;
@@ -674,6 +674,10 @@ header {
   border-radius: 5px;
   padding: 25px;
   position: relative;
+}
+.projets-container .projet:hover .projet-header div a img {
+  transform: scale(1.3);
+  transition: 0.1s ease;
 }
 .projets-container .projet .projet-header {
   display: flex;
