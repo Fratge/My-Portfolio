@@ -13,7 +13,13 @@ body {
 
 main {
   margin: auto;
-} /* Components */
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* Components */
 header {
   background-color: #0e1116;
   position: fixed;
@@ -428,6 +434,9 @@ header {
 }
 
 @media screen and (max-width: 1350px) {
+  #a-propos .section-title {
+    margin-left: 2%;
+  }
   #a-propos .container {
     height: 100%;
   }
@@ -454,7 +463,8 @@ header {
     height: 50%;
   }
   #a-propos .container .textes {
-    width: 90%;
+    width: 85%;
+    margin: 0px 3%;
   }
   #a-propos .container .textes .logo-container {
     margin-bottom: 10%;
