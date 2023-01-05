@@ -22,7 +22,6 @@ header {
   left: 0;
   z-index: 1;
   border-bottom: 1px solid white;
-  overflow-x: hidden;
 }
 
 .header-nav {
@@ -146,7 +145,6 @@ header {
   flex-direction: column;
   height: 100vh;
   margin: auto;
-  overflow-x: hidden;
 }
 #landing-page h1 {
   font-size: 5.5rem;
@@ -390,7 +388,6 @@ header {
 }
 #a-propos .section-background {
   width: 1280px;
-  overflow-x: hidden;
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
   color: black;
@@ -467,7 +464,6 @@ header {
 }
 #competences .section-background {
   width: 1280px;
-  overflow-x: hidden;
   margin: 0 auto;
 }
 #competences .section-background .section-title {
@@ -580,7 +576,6 @@ header {
   margin: 0 auto;
   color: black;
   text-align: center;
-  overflow-x: hidden;
 }
 #projets .section-title {
   font-size: 45px;
@@ -889,9 +884,7 @@ header {
   width: 100vw;
 }
 #contact .section-background {
-  width: 1280px;
   margin: 0 auto;
-  overflow-x: hidden;
   color: black;
   text-align: center;
 }
@@ -1063,7 +1056,6 @@ footer {
   font-size: 20px;
   border-top: solid 1px white;
   width: 100vw;
-  overflow-x: hidden;
 }
 footer p {
   color: white;
