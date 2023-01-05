@@ -428,15 +428,24 @@ header {
 }
 
 @media screen and (max-width: 1350px) {
+  #a-propos .container {
+    height: 100%;
+  }
+  #a-propos .container .textes {
+    width: 100%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 990px) {
   #a-propos {
     height: 100%;
   }
   #a-propos .section-title {
-    font-size: 5.59vmin;
+    font-size: 4.55vmin;
     margin: 10% 0 0 5%;
   }
   #a-propos .container {
-    font-size: 3.25vmin;
+    font-size: 2.6vmin;
     flex-direction: column;
     gap: 40px;
   }
@@ -451,7 +460,7 @@ header {
     margin-bottom: 10%;
   }
   #a-propos .container .textes .logo-container img {
-    width: 10vw;
+    width: 5vw;
     height: 100%;
   }
 }
@@ -474,7 +483,7 @@ header {
   color: white;
   font-family: "Ubuntu", sans-serif;
 }
-#competences .section-background .container {
+#competences .section-background .container-competences {
   display: flex;
   justify-content: space-around;
   gap: 35px;
@@ -540,7 +549,7 @@ header {
     height: 100%;
     margin: 7% 0;
   }
-  .container {
+  .container-competences {
     display: flex;
     flex-wrap: wrap;
   }
@@ -550,14 +559,14 @@ header {
     height: 100%;
     margin: 7% 0;
   }
-  .container {
+  .container-competences {
     display: flex;
   }
-  .container .technologies {
+  .container-competences .technologies {
     flex-direction: column;
     width: 90%;
   }
-  .container .webdesign, .container .autres {
+  .container-competences .webdesign, .container-competences .autres {
     width: 35%;
     display: flex;
     align-items: center;
