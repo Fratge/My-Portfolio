@@ -13,13 +13,19 @@
 <body> 
     <header>
         <nav class="header-nav">
-            <div><a class="header-nav-logo" href="#">SG</a></div>
-            <ul>
+            <div>
+                <a class="header-nav-logo" href="#">SG</a>
+            </div>
+            <div class="toggle">
+                <img src="./src/images/svg/burger-solid.svg" alt="" class="ouvrir">
+                <img src="./src/images/svg/xmark-solid.svg" alt="" class="fermer">
+            </div>
+            <ul class="menu">
                 <li class="header-item"><a href="#a-propos">A propos</a></li>
                 <li class="header-item"><a href="#projets">Projets</a></li>
                 <li class="header-item"><a href="#competences">Compétences</a></li>
                 <li class="header-item"><a href="#contact">Contact</a></li>
-                <li><a href="#" class="btn-cv">Mon CV</a></li>
+                <li><a href="./src/CV Sébastien GROSS.pdf" target="_blank" class="btn-cv">Mon CV</a></li>
             </ul>
         </nav>
     </header>
@@ -73,8 +79,8 @@
                             En cours d'apprentissage : React
                         </p>
                         <div class="logo-container">
-                            <a href="#" target="_blank"><img src="./src/images/svg/github_logo.svg" alt=""></a>
-                            <a href="#" target="_blank"><img src="./src/images/svg/linkedin_logo.svg" alt=""></a>
+                            <a href="https://github.com/Fratge" target="_blank"><img src="./src/images/svg/github_logo.svg" alt=""></a>
+                            <a href="https://www.linkedin.com/in/sebastien-gross67/" target="_blank"><img src="./src/images/svg/linkedin_logo.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +146,7 @@
                         </div>
                         <div class="projet-redirections">
                             <a href="#" target="_blank"><img src="./src/images/svg/github_logo_wborder.svg" alt=""></a>
-                            <a href="#" target="_blank"><img src="./src/images/svg/externallink_logo.svg" alt=""></a>
+                            <a href="https://www.cuej.info/mini-sites/electricite/" target="_blank"><img src="./src/images/svg/externallink_logo.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -297,6 +303,7 @@
         <p><span>Sébastien Gross </span>| Tous droits réservés</p>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
     <script>
         AOS.init();
     </script>
